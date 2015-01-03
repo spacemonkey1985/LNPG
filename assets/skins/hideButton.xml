@@ -1,0 +1,13 @@
+<button>
+	<showButton>
+		<out value="assets/skins/videoSkin/playlistOn.png"/>
+		<over value="assets/skins/videoSkin/playlistOnOver.png"/>
+		<down value="assets/skins/videoSkin/playlistOn.png"/>
+	</showButton>
+	
+	<hideButton>
+		<out value="assets/skins/videoSkin/playlistOff.png"/>
+		<over value="assets/skins/videoSkin/playlistOffOver.png"/>
+		<down value="assets/skins/videoSkin/playlistOff.png"/>
+	</hideButton>
+</button>

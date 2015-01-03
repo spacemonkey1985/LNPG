@@ -1,0 +1,67 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 14.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:GMT Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0100
+TZOFFSETTO:-0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T010000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:-0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20120226T114935Z
+DESCRIPTION:On the first Monday of every month we host a property meeting i
+	n the East Midlands where like-minded landlords gather to hear invited spe
+	akers delivering valuable information and we update everyone with news of 
+	new partners and the future for LNPG members. \n\nThe meeting is open to m
+	embers and non-members alike and is a great opportunity to network with pe
+	ople like yourself who have an interest in property and their portfolios.\
+	n
+DTEND;TZID="GMT Standard Time":20120305T210000
+DTSTAMP:20120226T114935Z
+DTSTART;TZID="GMT Standard Time":20120305T180000
+LAST-MODIFIED:20120226T114935Z
+LOCATION:Derbyshire Hotel
+PRIORITY:5
+RRULE:FREQ=MONTHLY;BYDAY=MO;BYSETPOS=1
+SEQUENCE:0
+SUMMARY;LANGUAGE=en-gb:LNPG Meeting
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000209F04B67CF4CC01000000000000000
+	0100000009F745306EF840B4AA15240318939DC17
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server ve
+	rsion 14.02.5004.000">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted f
+	rom text/rtf format -->\n\n<P DIR=LTR><SPAN LANG="en-gb"><FONT FACE="Calib
+	ri">On the</FONT></SPAN><SPAN LANG="en-gb"><B> <FONT FACE="Calibri">first 
+	Monday of every month</FONT></B></SPAN><SPAN LANG="en-gb"><FONT FACE="Cali
+	bri"> we host a property meeting in the East Midlands where like-minded la
+	ndlords gather to hear invited speakers delivering valuable information an
+	d we update everyone with news of new partners and the future for LNPG mem
+	bers.<BR>\n<BR>\nThe meeting is open to members and non-members alike and 
+	is a great opportunity to network with people like yourself who have an in
+	terest in property and their portfolios.</FONT></SPAN><SPAN LANG="en-gb"><
+	/SPAN></P>\n\n</BODY>\n</HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

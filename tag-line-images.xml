@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This is the full list of specific particularities which you can set for each image. Next to each property is the corresponding overall setting of the Banner.
+When you specify one of these properties as an XML attribute for each image, the corresponding overall setting of the Banner will be ignored.
+
+Particular Property				Overall Property
+_____________________________________________________________
+effect							imageEffects -> type
+zoompercent						imageEffects -> zoomPercent
+dur								imageEffects -> duration
+direction						imageEffects -> direction
+hzoompos						imageEffects -> hZoomPos
+vzoompos						imageEffects -> vZoomPos
+hpos							textOptions -> hPos
+vpos							textOptions -> vPos
+width							textOptions -> width
+height							textOptions -> height
+slide							textEffects -> slide
+appear							textEffects -> appear
+func							textEffects -> function
+type							textBackground -> type
+transition (a transition ID from the transitions list)
+duration (duration for each image but change the value of autoTiming to false in settings.xml file)
+-->
+
+<slideshow>
+	<photo image="images/tag-line/tag-line.jpg" url="#" target="_parent" duration="6" effect="none" zoompercent="0" direction="out" hzoompos="left" vzoompos="right">
+	<![CDATA[]]></photo>
+	
+	<photo image="images/tag-line/pts-deal.jpg" url="#" target="_parent" duration="4" effect="none" zoompercent="0" direction="out" hzoompos="left" vzoompos="right">
+	<![CDATA[]]></photo>
+	
+	<photo image="images/tag-line/new-century-deal.jpg" url="#" target="_parent" duration="4" effect="none" zoompercent="0" direction="out" hzoompos="left" vzoompos="right">
+	<![CDATA[]]></photo>
+	
+	<photo image="images/tag-line/howdens-deal.jpg" url="#" target="_parent" duration="4" effect="none" zoompercent="0" direction="out" hzoompos="left" vzoompos="right">
+	<![CDATA[]]></photo>
+	
+	<photo image="images/tag-line/pts-deal-2.jpg" url="#" target="_parent" duration="4" effect="none" zoompercent="0" direction="out" hzoompos="left" vzoompos="right">
+	<![CDATA[]]></photo>
+</slideshow>

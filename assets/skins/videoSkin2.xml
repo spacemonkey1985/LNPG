@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<groups>
+		<group snapToCell="true" gridPosition="BC" cellPosition="BC" orientation="horizontal" spacing="0" paddingV="2">
+			<button out="assets/skins/videoSkin2/prev.png" over="assets/skins/videoSkin2/prevOver.png" action="prev" tooltip="" animate="true"/>
+			<doubleButton>
+				<button out="assets/skins/videoSkin2/play.png" over="assets/skins/videoSkin2/playOver.png" action="play" tooltip="" animate="true"/>
+				<button out="assets/skins/videoSkin2/pause.png" over="assets/skins/videoSkin2/pauseOver.png" action="pause" tooltip="" animate="true"/>
+			</doubleButton>
+			<button out="assets/skins/videoSkin2/stop.png" over="assets/skins/videoSkin2/stopOver.png" action="stop" tooltip="" animate="true"/>
+			<button out="assets/skins/videoSkin2/next.png" over="assets/skins/videoSkin2/nextOver.png" action="next" tooltip="" animate="true"/>
+			<scrubBar back="assets/skins/videoSkin2/scrubBack.png" progress="assets/skins/videoSkin2/position.png" position="assets/skins/videoSkin2/progress.png" dragOut="assets/skins/videoSkin2/pointer.png" dif="2" />
+			<doubleButton>
+				<button out="assets/skins/videoSkin2/muteOff.png" over="assets/skins/videoSkin2/muteOffOver.png" action="mute" tooltip="" animate="true"/>
+				<button out="assets/skins/videoSkin2/muteOn.png" over="assets/skins/videoSkin2/muteOnOver.png" action="unmute" tooltip="" animate="true"/>
+			</doubleButton>
+			<volume back="assets/skins/videoSkin2/scrubBack.png" position="assets/skins/videoSkin2/progress.png" dragOut="assets/skins/videoSkin2/pointer.png" dif="2" width="40"/>	
+			<doubleButton>
+				<button out="assets/skins/videoSkin2/shuffleOn.png" over="assets/skins/videoSkin2/shuffleOnOver.png" action="shuffleOn" tooltip="" animate="true"/>
+				<button out="assets/skins/videoSkin2/shuffleOff.png" over="assets/skins/videoSkin2/shuffleOffOver.png" action="shuffleOff" tooltip="" animate="true"/>
+			</doubleButton>
+			<doubleButton>
+				<button out="assets/skins/videoSkin2/repeatOn.png" over="assets/skins/videoSkin2/repeatOnOver.png" action="repeatOn" tooltip="" animate="true"/>
+				<button out="assets/skins/videoSkin2/repeatOff.png" over="assets/skins/videoSkin2/repeatOffOver.png" action="repeatOff" tooltip="" animate="true"/>
+			</doubleButton>
+			<doubleButton>
+				<button out="assets/skins/videoSkin2/fullscreenOn.png" over="assets/skins/videoSkin2/fullscreenOnOver.png" action="fullscreenOn" tooltip="" animate="true"/>
+				<button out="assets/skins/videoSkin2/fullscreenOff.png" over="assets/skins/videoSkin2/fullscreenOffOver.png" action="fullscreenOff" tooltip="" animate="true"/>
+			</doubleButton>
+	</group>
+	</groups>
+</data>

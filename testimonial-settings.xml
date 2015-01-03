@@ -1,0 +1,107 @@
+<settings>
+  <General_Properties>
+    <componentWidth value="500"/>
+    <componentHeight value="300"/>
+    <feedType value="local"/>
+    <assets value="testimonial-videos.xml"/>
+    <userChannel value=""/>
+    <preloader value="assets/preloaders/gradientCirclesDepth3.swf"/>
+    <youtubeErrorImage value="assets/errorImages/youtube.jpg"/>
+    <showAbout value="true"/>
+  </General_Properties>
+  <Controls_Properties>
+    <controlsSkin value="assets/skins/videoSkin2.xml"/>
+    <autoHide value="true"/>
+    <hideDelay value="3"/>
+    <defaultVolume value="50"/>
+  </Controls_Properties>
+  <Playlist_Properties>
+    <position value="right"/>
+    <width value="150"/>
+    <height value="264"/>
+    <spacing value="0"/>
+    <overlap value="true"/>
+    <hideDelay value="1"/>
+    <initialState value="visible"/>
+    <hideButton value="assets/skins/hideButton.xml"/>
+    <textCSS value="assets/css/styleSheet.css"/>
+  </Playlist_Properties>
+  <PlaylistItem_Properties>
+    <width value="150"/>
+    <height value="63"/>
+    <backAlpha value="1"/>
+    <backOutColor1 value="0x1b2e3d"/>
+    <backOutColor2 value="0x1b2e3d"/>
+    <backAngle value="160"/>
+    <headOutColor value="0xffffff"/>
+    <bodyOutColor value="0xffffff"/>
+    <picturePos value="left"/>
+    <padding value="3"/>
+    <cornerRadius value="0"/>
+    <selectTime value="0.2"/>
+    <deselectTime value="0.3"/>
+    <embedFonts value="false"/>
+    <backOverColor1 value="0xe87f1c"/>
+    <backOverColor2 value="0xe87f1c"/>
+    <backOverAlpha value="1"/>
+    <headOverColor value="0xffffff"/>
+    <bodyOverColor value="0xffffff"/>
+    <useArrow value="true"/>
+    <arrowType value="line"/>
+    <overArrowSize value="9"/>
+    <backSelColor1 value="0xe87f1c"/>
+    <backSelColor2 value="0xe87f1c"/>
+    <selectedAlpha value="1"/>
+    <headTextColor value="0xffffff"/>
+    <bodyTextColor value="0xffffff"/>
+    <arrowSize value="0"/>
+    <arrowBasePercent value="0"/>
+  </PlaylistItem_Properties>
+  <Visualizer_Properties>
+    <show value="true"/>
+    <backgroundColor value="1781309"/>
+    <backgroundAlpha value="0"/>
+    <borderSize value="0"/>
+    <borderColor value="1781309"/>
+    <borderAlpha value="0"/>
+    <cornerRadius value="0"/>
+    <visualType value="lines"/>
+    <lineColor value="8043020"/>
+    <lineAlpha value="1"/>
+    <lineSize value="4"/>
+    <lineSpacing value="1"/>
+    <lineGlow value="false"/>
+    <multiplier value="1"/>
+    <useDisplacement value="true"/>
+    <dispOffset value="0"/>
+    <dispAlpha value="0"/>
+    <blurQty value="0"/>
+  </Visualizer_Properties>
+  <Background_Properties>
+    <fillType value="image"/>
+    <backgroundImage value="assets/backgroundImages/darkPattern.jpg"/>
+    <backgroundFitting value="repeat"/>
+    <backgroundColor1 value=""/>
+    <backgroundColor2 value=""/>
+    <backgroundAlpha value="1"/>
+    <bgCornerRadius value="0"/>
+    <gradientRotation value="0"/>
+    <gradientRatio value="0"/>
+    <gradientPosX value="0"/>
+    <gradientPosY value="0"/>
+    <useShade value="false"/>
+    <shadeColor value="0x000000"/>
+    <shadeAlpha value="1"/>
+    <shadeRatio value="100"/>
+    <shadeWidth value="600"/>
+    <shadeHeight value="300"/>
+  </Background_Properties>
+  <Shade_Properties>
+    <useShade value="false"/>
+    <shadeColor value="0x000000"/>
+    <shadeAlpha value="1"/>
+    <shadeRatio value="40"/>
+    <shadeWidth value="0"/>
+    <shadeHeight value="0"/>
+  </Shade_Properties>
+</settings>

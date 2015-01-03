@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This is the full list of specific particularities which you can set for each image. Next to each property is the corresponding overall setting of the Banner.
+When you specify one of these properties as an XML attribute for each image, the corresponding overall setting of the Banner will be ignored.
+
+Particular Property				Overall Property
+_____________________________________________________________
+effect							imageEffects -> type
+zoompercent						imageEffects -> zoomPercent
+dur								imageEffects -> duration
+direction						imageEffects -> direction
+hzoompos						imageEffects -> hZoomPos
+vzoompos						imageEffects -> vZoomPos
+hpos							textOptions -> hPos
+vpos							textOptions -> vPos
+width							textOptions -> width
+height							textOptions -> height
+slide							textEffects -> slide
+appear							textEffects -> appear
+func							textEffects -> function
+type							textBackground -> type
+transition (a transition ID from the transitions list)
+duration (duration for each image but change the value of autoTiming to false in settings.xml file)
+-->
+
+<slideshow>
+	<photo image="images/promo-rotator/kitchens-01.jpg" url="#" target="_parent" duration="4" effect="none" zoompercent="0" direction="out" hzoompos="left" vzoompos="right">
+	<![CDATA[<head>Howdens</head><body>Kitchens</body>]]></photo>
+	
+	<photo image="images/promo-rotator/carpets.jpg" url="#" target="_parent" duration="4" effect="none" zoompercent="0" direction="out" hzoompos="left" vzoompos="right">
+	<![CDATA[<head>Designer Contracts</head><body>Quality Carpets &amp; Flooring</body>]]></photo>
+	
+	<photo image="images/promo-rotator/partners.jpg" url="#" target="_parent" duration="4" effect="none" zoompercent="0" direction="out" hzoompos="left" vzoompos="right">
+	<![CDATA[]]></photo>
+	
+	<photo image="images/promo-rotator/doors-01.jpg" url="#" target="_parent" duration="4" effect="none" zoompercent="0" direction="out" hzoompos="left" vzoompos="right">
+	<![CDATA[<head>New Century Windows</head><body>Windows and Doors</body>]]></photo>
+</slideshow>

@@ -1,0 +1,56 @@
+<chart caption='Cumulative members per month' subcaption='For the past 12 months YTD' xAxisName='Month' yAxisName='Members' yAxisMinValue='0'  numberPrefix='' showValues='0' alternateHGridColor='99cccc' alternateHGridAlpha='20' divLineColor='1b75bc' divLineAlpha='50' canvasBorderColor='666666' baseFontColor='666666' lineColor='1b75bc'>
+	<categories>
+	 <category label='Apr 2011' />
+	 <category label='May 2011' />
+	 <category label='Jun 2011' />
+	 <category label='Jul 2011' />
+	 <category label='Aug 2011' />
+	 <category label='Sep 2011' />
+	 <category label='Oct 2011' />
+	 <category label='Nov 2011' />
+	 <category label='Dec 2011' />
+	 <category label='Jan 2012' />
+	 <category label='Feb 2012' />
+	 <category label='Mar 2012' />
+ </categories>
+  <dataset seriesName='Actual' color='1b75bc' anchorBorderColor='1b75bc' anchorBgColor='ffffff'>
+    <set value='0' />
+    <set value='0' />
+    <set value='0' />
+    <set value='0' />
+    <set value='5' />
+    <set value='8' />
+    <set value='16' />
+    <set value='20' />
+    <set value='24' />
+    <set value='29' />
+    <set value='37' />
+    <set value='42' />
+  </dataset>
+  <dataset seriesName='Forecast' color='f6861f' anchorBorderColor='f6861f' anchorBgColor='ffffff'>
+    <set value='15' />
+    <set value='35' />
+    <set value='60' />
+    <set value='90' />
+    <set value='125' />
+    <set value='165' />
+    <set value='210' />
+    <set value='260' />
+    <set value='315' />
+    <set value='375' />
+    <set value='440' />
+    <set value='510' />
+  </dataset>
+ <styles>
+	  <definition>
+	    <style name='Anim1' type='animation' param='_xscale' start='0' duration='1' />
+	    <style name='Anim2' type='animation' param='_alpha' start='0' duration='0.6' />
+	    <style name='DataShadow' type='Shadow' alpha='40'/>
+	  </definition>
+	  <application>
+	    <apply toObject='DIVLINES' styles='Anim1' />
+	    <apply toObject='HGRID' styles='Anim2' />
+	    <apply toObject='DATALABELS' styles='DataShadow,Anim2' />
+	  </application>
+ </styles>
+</chart>
